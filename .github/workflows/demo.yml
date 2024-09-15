@@ -50,7 +50,7 @@ jobs:
       - name: Output Content
         run: ls
       - name: Output filename
-        run: echo "${{ needs.build.outputs.script-file }}""
+        run: echo "${{ needs.build.outputs.script-file }}"
       - name: current path
         run: pwd
       - name: Deploy
